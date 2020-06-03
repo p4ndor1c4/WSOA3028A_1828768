@@ -4,31 +4,25 @@
 <head>
     <meta charset="utf-8">
     <title>Wanderlust</title>
-    <script src="index.js" type="module" async></script>
+    <script src="./JS/navigation.js" async></script>
+    <link href="stylesheet.css" rel="stylesheet">
     <meta name="description" content="Wanderlust: Home">
     <meta name="author" content="Erin Hutton - 1828768">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body style="background-color: #f8f3ff">
-    <header style="padding-left: 20px;">
+<body style="background-color: #f8f3ff" onload="initialiseNavigation()">
+    <header>
         <h1>Wanderlust</h1>
-        <p style="padding-right: 80%; text-align: justify;">Welcome to my travel blog! My name is Grace and this is
+        <p style="padding-right: 75%; text-align: justify;">Welcome to my travel blog! My name is Grace and this is
             where
             I post about my
             adventures, along with any
             useful tips I learn along the way.</p>
-        <nav>
-            Home |
-            <a href="about.html">About Me</a> |
-            <a href="bucketlist.html">Bucket List</a> |
-            <a href="blog.html">Blog</a>
-        </nav>
+        <nav></nav>
     </header>
 
     <article style="text-align: center;">
-        <button type="button" style="border-color: black;">Do a Thing</button>
-        <br>
         <img src="Placeholder.png" alt="Paris" title="Placeholder for a picture of Paris"
             style="width: 400px; height: 400px;">
         <br>
