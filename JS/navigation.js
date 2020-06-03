@@ -1,8 +1,8 @@
 const navData = [
-    {title: 'Home', link: '/'},
-    {title: 'About Me', link: '/About'},
-    {title: 'Blog', link: '/Blog'},
-    {title: 'Bucket List', link: '/BucketList'}
+    {title: 'Home', link: '/WSOA3028A_1828768/'},
+    {title: 'About Me', link: '/WSOA3028A_1828768/About'},
+    {title: 'Blog', link: '/WSOA3028A_1828768/Blog'},
+    {title: 'Bucket List', link: '/WSOA3028A_1828768/BucketList'}
 ];
 
 function initialiseNavigation(){
