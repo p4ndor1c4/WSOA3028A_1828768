@@ -78,8 +78,8 @@ nav ul li a:hover{
 }
 
 /*Mobile Devices*/
-@media (min-width:320px) and (max-width:480px){
-    .Menu ul{
+@media (min-width:320px) and (max-width:1024px){
+    .Menu nav{
         position: sticky;
         float: none;
         text-align: center;
