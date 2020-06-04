@@ -9,9 +9,15 @@
     src: url(../Fonts/Lato-Regular.ttf)
 }
 
+@font-face{
+    font-family: roboto;
+    src: url(../Fonts/RobotoMono-Regular.ttf)
+}
+
 :root {
     --font_main: lato;
     --font_mainHeading: kristi;
+    --font_secondaryHeading: roboto;
 
     font-family: var(--font_main);
     font-size: smaller;
@@ -27,6 +33,11 @@ html, body{
 h1{
     font-family: var(--font_mainHeading);
     font-size: 60px;
+    color: #150023;
+}
+
+h2, h3{
+    font-family: var(--font_secondaryHeading);
 }
 
 header{
@@ -49,7 +60,7 @@ nav ul{
 nav ul li a{
     padding-right: 1em;
     text-decoration: none;
-    color: black;
+    color: #150023;
     font-size: initial;
 }
 
