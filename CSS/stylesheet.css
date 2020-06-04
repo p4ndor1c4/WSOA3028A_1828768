@@ -19,6 +19,11 @@
     background-color: #f8f3ff;
 }
 
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
 h1{
     font-family: var(--font_mainHeading);
     font-size: 60px;
@@ -29,19 +34,20 @@ header{
     position: fixed;
 }
 
-/*Navigation*/
+/*Menu Navigation*/
 nav ul{
     list-style-type: none;
     position: fixed;
+    padding-left: 0;
 }
 
-nav ul li{
+.Menu ul li{
     float: left;
     margin-right: 0.5em;
 }
 
 nav ul li a{
-    padding: 0.25em 1em;
+    padding-right: 1em;
     text-decoration: none;
     color: black;
     font-size: initial;
