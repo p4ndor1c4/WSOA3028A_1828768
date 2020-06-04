@@ -79,7 +79,7 @@ nav ul li a:hover{
 
 /*Mobile Devices*/
 @media (min-width:320px) and (max-width:480px){
-    .Menu li{
+    .Menu ul{
         position: sticky;
         float: none;
         text-align: center;
