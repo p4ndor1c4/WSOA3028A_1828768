@@ -61,6 +61,7 @@ header{
     left: 0;
     right: 0;
     align-items: center;
+    box-shadow: 0 0 20px 1px grey;
 }
 
 header h1{
@@ -101,9 +102,27 @@ a{
 
 /*Mobile Devices*/
 @media (max-width:1024px){
-    .Menu nav{
-        position: sticky;
-        float: none;
-        text-align: center;
+    header{
+        height: 3em;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .Menu{
+        font-size: initial;
+    }
+
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 3em;
+        padding: 1em;
+    }
+
+    img{
+        width: 50%;
+        height: auto;
     }
 }
