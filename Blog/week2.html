@@ -4,13 +4,16 @@
 <head>
     <meta charset="utf-8">
     <title>Wanderlust - Blog</title>
+    <link rel="icon" href="../Images/logo.png" type="image/png">
+    <!--Scripts-->
     <script src="../JS/navigation.js" async></script>
+    <script src="../JS/footerInfo.js" async></script>
+    <!--Stylesheet-->
     <link href="../CSS/stylesheet.css" rel="stylesheet">
+    <!--Metadata-->
     <meta name="description" content="Wanderlust: Week 2 Blog">
     <meta name="author" content="Erin Hutton - 1828768">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../Images/logo.png" type="image/png">
-
     <meta property="og:title" content="Wanderlust: Week 2 Blog">
     <meta property="og:type" content="Travel Blog">
     <meta property="og:description" content="Stories of adventures and travel tips from Grace Durden">
@@ -18,62 +21,75 @@
     <meta property="og:image" content="https://p4ndor1c4.github.io/WSOA3028A_1828768/Images/logo.png">
 </head>
 
-<body onload="initialiseNavigation()">
+<body onload="initialiseNavigation(), generateFooter()">
     <header>
-        <h1><a href=''>Wanderlust</a></h1>
+        <h1><a href='../'>Wanderlust</a></h1>
         <nav class="Menu"></nav>
     </header>
+    <main>
+        <article>
+            <h2>Blog - Week 2</h2>
+            <h3>An Important Moment in the Development of the World Wide Web</h3>
+            <time datetime="2020-02-14"><b>14 February 2020</b></time>
+            <section>
+                <p>Google is undoubtedly an integral part of the World Wide Web experience of most people nowadays. No
+                    other
+                    search
+                    engine to my knowledge has had its name become such a commonly used verb synonymous with “search”,
+                    so I
+                    think
+                    that the beginning of Google is a very important moment in the development of the World Wide Web.
+                </p>
+                <p>Google was started by <a href="https://www.thoughtco.com/who-invented-google-1991852">Larry Page and
+                        Sergey
+                        Brin
+                    </a>who met at Stanford University in 1995. The following year, the two of them created a search
+                    engine
+                    named
+                    Backrub from their dorm rooms. This search engine ranked a website based on the number of backlinks
+                    it
+                    has.
+                    A <a href="https://en.wikipedia.org/wiki/Backlink">backlink</a> is a link to a website from another
+                    website.
+                    This
+                    concept forms the basis of Google’s <a href="https://en.wikipedia.org/wiki/PageRank">PageRank</a>
+                    algorithm,
+                    named after Larry Page. Page and Brin tried to sell their search engine to Yahoo! in 1997 but were
+                    turned
+                    down.
+                </p>
+                <p>From Backrub, Google was developed and google.com was registered in 1997. Google then became a
+                    private
+                    company in
+                    1998, while they were based in a garage. The homepage was marked as being in beta until September
+                    1999.
+                    As
+                    we
+                    all know, Google continued to grow from there. Gmail was released to the public in 2004. 2005 saw
+                    the
+                    introduction of Google Maps and Google Earth. The verb “to google” was added to the Oxford English
+                    Dictionary in
+                    2006. In 2008 Google released their own web browser, Google Chrome, which is now one of the
+                    most-used
+                    browsers,
+                    and in 2011 they made their contribution to cloud storage services with Google Drive.</p>
+                <p>There is so much more that Google has done since its inception. It’s difficult to imagine what else
+                    they’ll
+                    do in
+                    the future but it’s doubtful that any other company will overtake them any time soon. It will be
+                    very
+                    interesting to see what else they will introduce with future technologies and further development of
+                    the
+                    World
+                    Wide Web.</p>
+            </section>
+        </article>
+        <hr size="1" noshade>
 
-    <article style="padding-top: 10px; padding-bottom: 10px; padding-left: 150px; padding-right: 150px;">
-        <h2>Blog - Week 2</h2>
-        <h3>Week 2: An Important Moment in the Development of the World Wide Web</h3>
-        <time datetime="2020-02-14"><b>14 February 2020</b></time>
-        <section>
-            <p>Google is undoubtedly an integral part of the World Wide Web experience of most people nowadays. No other
-                search
-                engine to my knowledge has had its name become such a commonly used verb synonymous with “search”, so I
-                think
-                that the beginning of Google is a very important moment in the development of the World Wide Web.</p>
-            <p>Google was started by <a href="https://www.thoughtco.com/who-invented-google-1991852">Larry Page and
-                    Sergey
-                    Brin
-                </a>who met at Stanford University in 1995. The following year, the two of them created a search engine
-                named
-                Backrub from their dorm rooms. This search engine ranked a website based on the number of backlinks it
-                has.
-                A <a href="https://en.wikipedia.org/wiki/Backlink">backlink</a> is a link to a website from another
-                website.
-                This
-                concept forms the basis of Google’s <a href="https://en.wikipedia.org/wiki/PageRank">PageRank</a>
-                algorithm,
-                named after Larry Page. Page and Brin tried to sell their search engine to Yahoo! in 1997 but were
-                turned
-                down.
-            </p>
-            <p>From Backrub, Google was developed and google.com was registered in 1997. Google then became a private
-                company in
-                1998, while they were based in a garage. The homepage was marked as being in beta until September 1999.
-                As
-                we
-                all know, Google continued to grow from there. Gmail was released to the public in 2004. 2005 saw the
-                introduction of Google Maps and Google Earth. The verb “to google” was added to the Oxford English
-                Dictionary in
-                2006. In 2008 Google released their own web browser, Google Chrome, which is now one of the most-used
-                browsers,
-                and in 2011 they made their contribution to cloud storage services with Google Drive.</p>
-            <p>There is so much more that Google has done since its inception. It’s difficult to imagine what else
-                they’ll
-                do in
-                the future but it’s doubtful that any other company will overtake them any time soon. It will be very
-                interesting to see what else they will introduce with future technologies and further development of the
-                World
-                Wide Web.</p>
-        </section>
-    </article>
-    <hr size="1" noshade>
+        <a href="index.html" class="back">Back</a>
+    </main>
 
-    <a href="index.html" class="back">Back</a>
-
+    <footer class='h-card'></footer>
 </body>
 
 </html>

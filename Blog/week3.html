@@ -4,13 +4,16 @@
 <head>
     <meta charset="utf-8">
     <title>Wanderlust - Blog</title>
+    <link rel="icon" href="../Images/logo.png" type="image/png">
+    <!--Scripts-->
     <script src="../JS/navigation.js" async></script>
+    <script src="../JS/footerInfo.js" async></script>
+    <!--Stylesheet-->
     <link href="../CSS/stylesheet.css" rel="stylesheet">
+    <!--Metadata-->
     <meta name="description" content="Wanderlust: Week 3 Blog">
     <meta name="author" content="Erin Hutton - 1828768">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../Images/logo.png" type="image/png">
-
     <meta property="og:title" content="Wanderlust: Week 3 Blog">
     <meta property="og:type" content="Travel Blog">
     <meta property="og:description" content="Stories of adventures and travel tips from Grace Durden">
@@ -18,42 +21,55 @@
     <meta property="og:image" content="https://p4ndor1c4.github.io/WSOA3028A_1828768/Images/logo.png">
 </head>
 
-<body onload="initialiseNavigation()">
+<body onload="initialiseNavigation(), generateFooter()">
     <header>
-        <h1><a href=''>Wanderlust</a></h1>
+        <h1><a href='../'>Wanderlust</a></h1>
         <nav class="Menu"></nav>
     </header>
 
-    <article style="padding-top: 10px; padding-bottom: 10px; padding-left: 150px; padding-right: 150px;">
-        <h2>Blog - Week 3</h2>
-        <h3>Week 3: Semantic Markup</h3>
-        <time datetime="2020-02-21"><b>21 February 2020</b></time>
-        <section>
-            <p>From what I’ve understood from class and through reading articles online, semantic mark-up means that
-                HTML tags are used with meaning and give information about what is contained within them. It is about
-                more than simply presenting content in a form readable by humans, but also about communicating meaning
-                to <a href=“https://html.com/semantic-markup/”>machines</a>. </p>
-            <p>The use of semantic mark-up improves accessibility by improving machines’ analysis of web content, thus
-                allowing it to be better delivered via tools such as screen readers. This is very important as it gives
-                people with disabilities a better, more meaningful experience of the web, as opposed to without semantic
-                mark-up. Learning about this really helped me understand semantic mark-up and how useful it is.</p>
-            <p>In <a href=“http://seekbrevity.com/semantic-markup-important-web-design/”>this article</a> I learnt about
-                how semantic mark-up helps with search engine optimisation. HTML tags have a hierarchy. Search engines
-                use this hierarchy to determine the importance of keywords – a keyword in an &lt;h1&gt; tag will be
-                deemed more important than a keywork in a &lt;p&gt; tag. This helps search engines to rank web pages.
-                This was something I hadn’t really thought about, despite learning a bit about search engine
-                optimisation in high school. I was very interested to find out about how search engines and their web
-                crawlers look at the code behind pages – I had thought it to be more surface-level than that.</p>
-            <p>
-                Even though I haven’t written much HTML at this stage, I’ve been very aware of using semantic tags while
-                coding. I appreciate that the concept was introduced to us so early on.
-            </p>
-        </section>
-    </article>
-    <hr size="1" noshade>
+    <main>
+        <article>
+            <h2>Blog - Week 3</h2>
+            <h3>Semantic Markup</h3>
+            <time datetime="2020-02-21"><b>21 February 2020</b></time>
+            <section>
+                <p>From what I’ve understood from class and through reading articles online, semantic mark-up means that
+                    HTML tags are used with meaning and give information about what is contained within them. It is
+                    about
+                    more than simply presenting content in a form readable by humans, but also about communicating
+                    meaning
+                    to <a href=“https://html.com/semantic-markup/”>machines</a>. </p>
+                <p>The use of semantic mark-up improves accessibility by improving machines’ analysis of web content,
+                    thus
+                    allowing it to be better delivered via tools such as screen readers. This is very important as it
+                    gives
+                    people with disabilities a better, more meaningful experience of the web, as opposed to without
+                    semantic
+                    mark-up. Learning about this really helped me understand semantic mark-up and how useful it is.</p>
+                <p>In <a href=“http://seekbrevity.com/semantic-markup-important-web-design/”>this article</a> I learnt
+                    about
+                    how semantic mark-up helps with search engine optimisation. HTML tags have a hierarchy. Search
+                    engines
+                    use this hierarchy to determine the importance of keywords – a keyword in an &lt;h1&gt; tag will be
+                    deemed more important than a keywork in a &lt;p&gt; tag. This helps search engines to rank web
+                    pages.
+                    This was something I hadn’t really thought about, despite learning a bit about search engine
+                    optimisation in high school. I was very interested to find out about how search engines and their
+                    web
+                    crawlers look at the code behind pages – I had thought it to be more surface-level than that.</p>
+                <p>
+                    Even though I haven’t written much HTML at this stage, I’ve been very aware of using semantic tags
+                    while
+                    coding. I appreciate that the concept was introduced to us so early on.
+                </p>
+            </section>
+        </article>
+        <hr size="1" noshade>
 
-    <a href="index.html" class="back">Back</a>
+        <a href="index.html" class="back">Back</a>
+    </main>
 
+    <footer class='h-card'></footer>
 </body>
 
 </html>

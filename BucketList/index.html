@@ -4,13 +4,16 @@
 <head>
     <meta charset="utf-8">
     <title>Wanderlust - Bucket List</title>
+    <link rel="icon" href="../Images/logo.png" type="image/png">
+    <!--Scripts-->
     <script src="../JS/navigation.js" async></script>
+    <script src="../JS/footerInfo.js" async></script>
+    <!--Stylesheet-->
     <link href="../CSS/stylesheet.css" rel="stylesheet">
+    <!--Metadata-->
     <meta name="description" content="Wanderlust: Travel Bucketlist">
     <meta name="author" content="Erin Hutton - 1828768">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../Images/logo.png" type="image/png">
-
     <meta property="og:title" content="Wanderlust: Bucket List">
     <meta property="og:type" content="Travel Blog">
     <meta property="og:description" content="Stories of adventures and travel tips from Grace Durden">
@@ -18,29 +21,32 @@
     <meta property="og:image" content="https://p4ndor1c4.github.io/WSOA3028A_1828768/Images/logo.png">
 </head>
 
-<body onload="initialiseNavigation()">
+<body onload="initialiseNavigation(), generateFooter()">
     <header>
-        <h1>Wanderlust</h1>
+        <h1><a href='../'>Wanderlust</a></h1>
         <nav class="Menu"></nav>
     </header>
+    <main>
+        <article style="text-align: center;">
+            <h2>Bucket List</h2>
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li><strong>United Kingdom</strong>
+                <li><s>London</s></li>
+                <li>Manchester</li>
+                <li>Liverpool</li>
+                <li>Edinburgh</li>
+                <li>Glasgow</li>
+                <li>Cardiff</li>
+                </li>
+                <li><strong>France</strong>
+                <li><s>Paris</s></li>
+                <li>Nice</li>
+                </li>
+            </ul>
+        </article>
+    </main>
 
-    <article style="text-align: center;">
-        <h2>Bucket List</h2>
-        <ul style="list-style-type: none; padding-left: 0;">
-            <li><strong>United Kingdom</strong>
-            <li><s>London</s></li>
-            <li>Manchester</li>
-            <li>Liverpool</li>
-            <li>Edinburgh</li>
-            <li>Glasgow</li>
-            <li>Cardiff</li>
-            </li>
-            <li><strong>France</strong>
-            <li><s>Paris</s></li>
-            <li>Nice</li>
-            </li>
-        </ul>
-    </article>
+    <footer class='h-card'></footer>
 </body>
 
 </html>

@@ -4,13 +4,16 @@
 <head>
     <meta charset="utf-8">
     <title>Wanderlust - Blog</title>
+    <link rel="icon" href="../Images/logo.png" type="image/png">
+    <!--Scripts-->
     <script src="../JS/navigation.js" async></script>
+    <script src="../JS/footerInfo.js" async></script>
+    <!--Stylesheet-->
     <link href="../CSS/stylesheet.css" rel="stylesheet">
+    <!--Metadata-->
     <meta name="description" content="Wanderlust: Week 5 Blog">
     <meta name="author" content="Erin Hutton - 1828768">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../Images/logo.png" type="image/png">
-
     <meta property="og:title" content="Wanderlust: Week 5 Blog">
     <meta property="og:type" content="Travel Blog">
     <meta property="og:description" content="Stories of adventures and travel tips from Grace Durden">
@@ -18,15 +21,15 @@
     <meta property="og:image" content="https://p4ndor1c4.github.io/WSOA3028A_1828768/Images/logo.png">
 </head>
 
-<body onload="initialiseNavigation()">
+<body onload="initialiseNavigation(), generateFooter()">
     <header>
-        <h1><a href=''>Wanderlust</a></h1>
+        <h1><a href='../'>Wanderlust</a></h1>
         <nav class="Menu"></nav>
     </header>
     <main>
-        <article style="padding-top: 10px; padding-bottom: 10px; padding-left: 150px; padding-right: 150px;">
+        <article>
             <h2>Blog - Week 5</h2>
-            <h3>Week 5: A Reflection on the Metaphors Used to Understand Digital Information</h3>
+            <h3>A Reflection on the Metaphors Used to Understand Digital Information</h3>
             <time datetime="2020-03-06"><b>6 March 2020</b></time>
             <section>
                 <p>I’d never really thought much about the metaphors we use when talking about digital information and
@@ -65,6 +68,8 @@
 
         <a href="index.html" class="back">Back</a>
     </main>
+
+    <footer class='h-card'></footer>
 </body>
 
 </html>

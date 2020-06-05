@@ -4,13 +4,16 @@
 <head>
     <meta charset="utf-8">
     <title>Wanderlust - About Me</title>
+    <link rel="icon" href="../Images/logo.png" type="image/png">
+    <!--Scripts-->
     <script src="../JS/navigation.js" async></script>
+    <script src="../JS/footerInfo.js" async></script>
+    <!--Stylesheet-->
     <link href="../CSS/stylesheet.css" rel="stylesheet">
+    <!--Metadata-->
     <meta name="description" content="Wanderlust: About Me">
     <meta name="author" content="Erin Hutton - 1828768">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../Images/logo.png" type="image/png">
-
     <meta property="og:title" content="Wanderlust: About Me">
     <meta property="og:type" content="Travel Blog">
     <meta property="og:description" content="Stories of adventures and travel tips from Grace Durden">
@@ -18,27 +21,45 @@
     <meta property="og:image" content="https://p4ndor1c4.github.io/WSOA3028A_1828768/Images/logo.png">
 </head>
 
-<body style="background-color: #f8f3ff" onload="initialiseNavigation()">
+<body onload="initialiseNavigation(), generateFooter()">
     <header>
-        <h1><a href=''>Wanderlust</a></h1>
+        <h1><a href='../'>Wanderlust</a></h1>
         <nav class="Menu"></nav>
     </header>
-
-    <article style="text-align: center;">
-        <h2>About Me</h2>
-        <section style="padding-left: 150px; padding-right: 150px;">
-            <p>My name is Grace Holton! I'm 25 years old and I'm on a mission to see the world. I'm based in
-                Johannesburg, South Africa. I started doing a lot of travelling back in 2031 as part of my modelling
-                career, which was also when I started this blog. I have since decided to make travelling my focus as
-                it's always been a dream of mine to see the world.</p>
-            <p>This blog is where I'll share my experiences of my journeys, travelling tips, photos and the places I
-                consider absolute must-visits.</p>
-        </section>
-        <br>
-
-        <img src="../Images/Grace.png" alt="Grace Durden Sim" title="A picture of me" width="150" height="225">
-    </article>
-
+    <main>
+        <article>
+            <h2>About Me</h2>
+            <section>
+                <img src="../Images/Grace.png" alt="Grace Durden Sim" title="A picture of me">
+                <p>My name is Grace Holton! I'm 25 years old and I'm on a mission to see the world. I'm based in
+                    Johannesburg, South Africa. I started doing a lot of travelling back in 2031 as part of my modelling
+                    career, which was also when I started this blog. I have since decided to make travelling my focus as
+                    it's always been a dream of mine to see the world.</p>
+                <p>This blog is where I'll share my experiences of my journeys, travelling tips, photos and the places I
+                    consider absolute must-visits.</p>
+                <p>Growing up, I was always eager to explare and I was very fortunate that my family would roadtrip
+                    through South Africa from
+                    Johannesburg almost every
+                    school holiday, with a different final destination each time. We'd pack our bags, pile everything
+                    into the car and be on our way bright and early
+                    in the morning. On longer trips, such as to Cape Town, we'd spend the night in a little town or on a
+                    B&B on a farm along the way so I got to see so much of beautiful South Africa. It's thanks to my
+                    parents and the trips they planned that I developed
+                    such a love for travelling and exploration.</p>
+                <p>Now, all these years later, I've made quite a bit of progress on checking off places on my bucket
+                    list of
+                    where to visit. This blog is my way of documenting all the memories I've made and the tips I've
+                    learned, and sharing the
+                    magic of these places with all of you. I hope you enjoy your time here and that it maybe inspires
+                    some of you to go out and adventure.</p>
+                <p>If you have any suggestions of where I should go or if you want to hear more about any specific
+                    place, please don't hesitate to send an email to the address at the bottom of the page! I also have
+                    links to my social media pages there. I'm quite active on Instagram where you can find a whole lot
+                    of pictures from my adventures.</p>
+            </section>
+        </article>
+    </main>
+    <footer class='h-card'></footer>
 </body>
 
 </html>
