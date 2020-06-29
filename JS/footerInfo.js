@@ -4,7 +4,7 @@ const icons = [
 ];
 
 const hCardData = [
-    '<p class="p-name">Grace Durden</p>',
+    '<p class="p-name">Grace Holton</p>',
     '<a class="u-email" href="mailto:grace.d.wanderlust@gmail.com">grace.d.wanderlust@gmail.com</a>',
     '<p class="p-locality">Johannesburg</p>',
     '<p class="p-country-name">South Africa</p>'

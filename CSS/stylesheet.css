@@ -43,6 +43,14 @@ main{
     box-shadow: 0 0 20px 1px #ab91cf;
 }
 
+.Intro img{
+    width: 600px;     
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1{
     font-family: var(--font_mainHeading);
     font-size: 60px;
@@ -74,6 +82,19 @@ header h1{
 
 header *{
     display: inline;
+}
+
+.Resources a{
+    text-decoration: underline;
+}
+
+.Resources a:hover{
+    font-weight: bold;
+}
+
+.Resources li{
+    list-style-type: none;
+    margin-left: 0;
 }
 
 /*Menu Navigation*/
@@ -188,16 +209,34 @@ section a:hover{
 
 /*Mobile Devices*/
 @media (max-width:1024px){
-    header{
-        height: 3em;
+    main{
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
-    h1{
-        font-size: 30px;
+    header{
+        text-align: center;
+    }
+
+    header h1{
+        display: block;
+        align-content: center;
+        font-size: 30pt;
+        line-height: 0;
     }
 
     .Menu{
-        font-size: initial;
+        display: block;
+        padding-top: 0;
+        margin-left: 0;
+    }
+
+    .Menu{
+        font-size: smaller;
+    }
+
+    main{
+        margin-top: 4em;
     }
 
     body{
@@ -207,8 +246,11 @@ section a:hover{
         padding: 1em;
     }
 
-    img{
-        width: 50%;
+    .Intro img{
+        width: 400px;
         height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
